@@ -10,14 +10,12 @@ namespace Data_Structure
     {
         static void Main(string[] args)
         {
-           LinkedList list = new LinkedList();               
-            list.Add(56);
-            list.Add(30);
-            list.Add(70);
-            list.Add(40);
-            int pos = list.Search(40);
-            list.DeleteNodeAtParticularPosition(pos);
-            list.Display();
+            Stack stack = new Stack();
+            stack.Push(70);
+            stack.Push(30);
+            stack.Push(56);
+            stack.Display();
+
             Console.ReadLine();
         }
     }
