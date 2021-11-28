@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,22 +12,14 @@ namespace Data_Structure
         static void Main(string[] args)
         {
 
-            Stack stack = new Stack();
-            stack.Push(70);
-            stack.Push(30);
-            stack.Push(56);
-            stack.Display();
-            stack.Peek();
-            stack.Pop();
-            stack.Display();
-            stack.Peek();
-            stack.Pop();
-            stack.Display();
-            stack.Peek();
-            stack.Pop();
-            stack.Display();
+            Queues qu = new Queues();
+            qu.Enqueu(70);
+            qu.Enqueu(30);
+            qu.Enqueu(56);
+            qu.Dequeu();
+            qu.Display();
+            Console.ReadLine();
 
-    
         }
     }
 }
