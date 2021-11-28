@@ -10,6 +10,7 @@ namespace Data_Structure
     {
         static void Main(string[] args)
         {
+
             Stack stack = new Stack();
             stack.Push(70);
             stack.Push(30);
@@ -25,7 +26,7 @@ namespace Data_Structure
             stack.Pop();
             stack.Display();
 
-            Console.ReadLine();
+    
         }
     }
 }
