@@ -16,8 +16,8 @@ namespace Data_Structure
             list.Add(40);
             list.Add(70);
             list.Display();
-            list.RemoveFirstNode();
-            Console.WriteLine("After removing is :{2} ");
+            list.RemoveLastNode();
+            Console.WriteLine("After removing is : ");
             list.Display();
             Console.ReadLine();
         }
