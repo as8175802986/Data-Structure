@@ -10,7 +10,7 @@ namespace Data_Structure
     {
         static void Main(string[] args)
         {
-            LinkedList list = new LinkedList();               //created the list object of the SortedLinkedList class
+           LinkedList list = new LinkedList();               
             list.Add(56);
             list.Add(30);
             list.Add(70);
