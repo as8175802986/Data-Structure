@@ -14,8 +14,10 @@ namespace Data_Structure
             list.Add(56);
             list.Add(30);
             list.Add(70);
-            int Search = list.Search(30);
-            Console.WriteLine("search" );
+            int position = list.Search(56);
+            position++;
+            list.InsertAtParticularPosition(position, 40);
+            list.Display();
             Console.ReadLine();
         }
     }
