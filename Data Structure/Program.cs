@@ -13,12 +13,9 @@ namespace Data_Structure
             LinkedList list = new LinkedList();               //created the list object of the SortedLinkedList class
             list.Add(56);
             list.Add(30);
-            list.Add(40);
             list.Add(70);
-            list.Display();
-            list.RemoveLastNode();
-            Console.WriteLine("After removing is : ");
-            list.Display();
+            int Search = list.Search(30);
+            Console.WriteLine("search" );
             Console.ReadLine();
         }
     }
