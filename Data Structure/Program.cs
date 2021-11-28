@@ -10,6 +10,7 @@ namespace Data_Structure
     {
         static void Main(string[] args)
         {
+
             Queues qu = new Queues();
             qu.Enqueu(70);
             qu.Enqueu(30);
