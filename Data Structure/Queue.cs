@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Data_Structure
 {
-    class Queues
+     class Queues
     {
         internal Node front;
         internal Node rear;
