@@ -17,6 +17,8 @@ namespace Data_Structure
             list.Add(70);
             list.Display();
             Console.WriteLine("this is stored in linked list");
+            list.InsertAtParticularPosition(2, 30);
+            list.Display();
             list.Display();
             Console.ReadLine();
         }
