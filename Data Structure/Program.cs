@@ -14,9 +14,9 @@ namespace Data_Structure
             list.Add(56);
             list.Add(30);
             list.Add(70);
-            int position = list.Search(56);
-            position++;
-            list.InsertAtParticularPosition(position, 40);
+            list.Add(40);
+            int pos = list.Search(40);
+            list.DeleteNodeAtParticularPosition(pos);
             list.Display();
             Console.ReadLine();
         }
