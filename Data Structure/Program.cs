@@ -24,6 +24,7 @@ namespace Data_Structure
             stack.Peek();
             stack.Pop();
             stack.Display();
+
             Console.ReadLine();
         }
     }
