@@ -16,8 +16,8 @@ namespace Data_Structure
             list.Add(40);
             list.Add(70);
             list.Display();
-            Console.WriteLine("this is stored in linked list");
-            list.InsertAtParticularPosition(2, 2);
+            list.RemoveFirstNode();
+            Console.WriteLine("After removing is :{2} ");
             list.Display();
             Console.ReadLine();
         }
